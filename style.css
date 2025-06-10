@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+#chatWindow,
+#moderationLog {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 15px;
+  background: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#msgInput {
+  width: 70%;
+  padding: 10px;
+}
+
+.toxic {
+  color: red;
+  font-weight: bold;
+}
+
+.warning {
+  color: orange;
+  font-style: italic;
+}
